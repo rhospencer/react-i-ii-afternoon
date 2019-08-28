@@ -117,6 +117,7 @@ h1{
   display: flex;
   justify-content: flex-start;
   color: white;
+  cursor: pointer;
 }
 
 .manipulateList{
@@ -132,6 +133,7 @@ h1{
   display: flex;
   justify-content: flex-end;
   color: white;
+  cursor: pointer;
 }
 .myButton {
 	background-color:#61dafb;

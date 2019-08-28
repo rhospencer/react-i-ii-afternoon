@@ -57,7 +57,7 @@ export default class Body extends Component {
                             </ol>
                         </div>
                         <div className="pageNumber">
-                            <h1 className='number'>{this.state.pageNumber}/{data.length}</h1>
+                            <h2 className='number'>{this.state.pageNumber}/{data.length}</h2>
                         </div>
                     </div>
                     <div className="controlHolder">
