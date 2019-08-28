@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  background: #61dafb;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.bodyHolder {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body{
+  height: 500px;
+  width: 700px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infoHolder {
+  display: flex;
+  margin-bottom: 40px;
+}
+.info {
+  height: 100%;
+  width: 70%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 40px;
+}
+h1{
+  text-decoration: underline;
+  text-decoration-color: #61dafb;
+}
+
+.pageNumber{
+  height: 100%;
+  width: 30%;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+.number{
+  padding: 5px;
+}
+.controlHolder{
+  height: 25vh;
+  width: 700px;
+  background: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.previous{
+  height: 10vh;
+  width: 200px;
+  background: black;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.manipulateList{
+  height: 10vh;
+  width: 400px;
+  background: black;
+}
+
+.next {
+  height: 10vh;
+  width: 200px;
+  background: black;  
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.myButton {
+	background-color:#61dafb;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+  padding:5px 17px;
+  margin: 0 10px;
+	text-decoration:none;
+	
+}
+.myButton:hover {
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
